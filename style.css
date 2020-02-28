@@ -1,1 +1,6 @@
-body {background-color: coral;}
+body {background-color: coral;
+ 
+}
+li{   display:inline;
+    font-size: 50px;
+}
