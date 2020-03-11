@@ -23,45 +23,32 @@
 <form class="con col-4">
     Uzupelnij Dane:
     <br>
+    Czy masz 18 lat ?
+    <br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MRadio" value="option1">
+        <label class="form-check-label" for="MRadio">TAK</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="FRadio" value="option2">
+        <label class="form-check-label" for="FRadio">NIE</label>
+    </div>
+    <br>
+    <br>
     <div class="form-group">
         <label for="Name">Imie</label>
         <input type="Name" class="form-control" id="Name" placeholder="Imie">
     </div>
     <div class="form-group">
-    <label for="Surname">Nazwisko</label>
-    <input type="Surname" class="form-control" id="Surname" placeholder="Nazwisko">
-</div>
+        <label for="Surname">Nazwisko</label>
+        <input type="Surname" class="form-control" id="Surname" placeholder="Nazwisko">
+    </div>
     <div class="form-group">
         <label for="exampleInputEmail1">E-mail</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
     </div>
-Gender
-    <br>
-    <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MRadio" value="option1">
-        <label class="form-check-label" for="MRadio">Man</label>
-    </div>
-    <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="FRadio" value="option2">
-        <label class="form-check-label" for="FRadio">Woman</label>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Opis</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <div class="form-group">
-        <label for="ageIn">Wiek</label>
-        <input type="number" class="form-control" id="ageIn">
-    </div>
-    <div class="form-group">
-        <label>Stan Cywilny</label>
-        <select id="stateIn" class="form-control">
-            <option selected>Panna/Kawaler</option>
-            <option>Małżonek/Małżonka</option>
-            <option>Wdowa/Wdowiec</option>
-        </select>
-    </div>
+
     <button type="submit" class="btn btn-primary">Send</button>
     <button type="reset" class="btn">Reset</button>
 </form>
