@@ -34,4 +34,6 @@ form{
 }
 .navbar {
     justify-content: center;
+ display: inline;
+    justify-content: space-around;
 }
