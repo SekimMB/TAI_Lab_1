@@ -13,7 +13,6 @@ form{
     padding: 12px;
     background-color: white;
     outline: black solid 6px;
-    outline: black solid;
     justify-content: space-around;
 }
 
@@ -26,4 +25,14 @@ form{
     border-right: black solid;
 }
 .fsiz {
-    font-size: large;
+    font-size: large;}
+
+.footer20{
+    position: fixed;
+    bottom: 5px;
+    width:100%;
+    text-align: center;
+    
+
+
+}
