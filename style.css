@@ -28,11 +28,10 @@ form{
     font-size: large;}
 
 .footer20{
-    position: fixed;
-    bottom: 5px;
-    width:100%;
-    text-align: center;
-    
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navbar {
+    justify-content: center;
 }
